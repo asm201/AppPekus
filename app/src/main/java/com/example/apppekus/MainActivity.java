@@ -81,7 +81,7 @@ public class MainActivity extends AppCompatActivity {
         String valor2 = et2.getText().toString();
 
         if(valor1.equals("") || valor2.equals("")){
-            Aviso("Erro!", "Por favor não deixe nenhum campo vazio ! ");
+            Aviso("Erro!", "Por favor não deixe nenhum campo em branco ! ");
             return;
         }
 
